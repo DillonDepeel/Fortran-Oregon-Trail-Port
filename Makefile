@@ -7,7 +7,7 @@ PREFIX  = /usr/local
 FFLAGS  = -A -ext -f
 CFLAGS  = -I$(PREFIX)/include/ -L$(PREFIX)/lib/ -w
 LDFLAGS = $(PREFIX)/lib/libf2c.a -lm
-SRC     = src/oregon.f
+SRC     = /src/oregon.f
 TARGET  = oregon
 
 .PHONY: all clean
